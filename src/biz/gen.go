@@ -16,7 +16,7 @@ func GenQr() {
 	fgColor := flag.String("fg", "#000000", "Màu mã vạch (Hex)")
 	bgColor := flag.String("bg", "#FFFFFF", "Màu nền (Hex)")
 	logoSize := flag.Int("size", 20, "Kích thước logo (20 - 100)")
-	outputPath := flag.String("out", "qrcode.png", "Đường dẫn file đầu ra")
+	outputPath := flag.String("out", "output/qrcode.png", "Đường dẫn file đầu ra")
 
 	flag.Parse()
 
